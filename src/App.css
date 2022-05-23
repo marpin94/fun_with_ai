@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: #ffff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#display{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+#prompt-form{
+  margin: 16px auto;  
+}
+
+#submit-form-btn{
+  margin: 8px 0px 16px;
+}
+
+#prompt{
+  resize: none;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius:4px;
+  box-shadow: 2px 2px 6px #4663be;
+  border:none;
+  focus:none;
+  outline:none;
+}
+
+#suggested-prompts{
+  margin: 0 auto;
+}
+
+
+.response-card-div{
+  width: 50%;
+  margin: 8px auto;
+  padding: 8px;
+  border-radius:4px;
+  box-shadow: 2px 2px 6px #4663be;
+}
+
+li {
+  list-style:none;
+}
+
+p{
+  width: 50%;
+  margin: 8px auto;
+}
+
+h4{
+  margin: 16px;
+}
+
+
+
